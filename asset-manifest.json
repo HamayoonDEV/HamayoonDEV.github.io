@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cricketlive/static/css/main.b96f337d.css",
+    "main.js": "/cricketlive/static/js/main.f5c4c6f4.js",
+    "index.html": "/cricketlive/index.html",
+    "main.b96f337d.css.map": "/cricketlive/static/css/main.b96f337d.css.map",
+    "main.f5c4c6f4.js.map": "/cricketlive/static/js/main.f5c4c6f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b96f337d.css",
+    "static/js/main.f5c4c6f4.js"
+  ]
+}
