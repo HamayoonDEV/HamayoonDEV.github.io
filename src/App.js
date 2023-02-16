@@ -1,18 +1,23 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import Body from "./components/Body";
+import { Link } from "react-router-dom";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import Footer from "./components/Footer";
-import { Routes, Route } from "react-router";
-import { Link } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Body from "./components/Body";
+import "./App.css";
+import Chat from "./chat/Chat";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Body />;
+      <div className="appfiles">
+        <Navbar />
+        <Body />
+      </div>
+      <div className="chat">
+        <Chat />
+      </div>
       <div className="appfooter">
         <Link to="https://www.youtube.com/@ToopakExtra/streams">
           <Footer Icon={YouTubeIcon} color="white" />

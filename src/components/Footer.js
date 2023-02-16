@@ -5,7 +5,10 @@ const Footer = ({ Icon, color }) => {
   return (
     <div className="footer">
       <div className="icons">
-        <Icon style={{ color: color, fontSize: "40px", marginRight: "20px" }} />
+        <Icon
+          className="icon"
+          style={{ color: color, fontSize: "40px", marginRight: "20px" }}
+        />
       </div>
     </div>
   );

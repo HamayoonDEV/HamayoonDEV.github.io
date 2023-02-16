@@ -9,13 +9,14 @@ const Body = () => {
     <div className="body">
       <h1>Toopak Sports Live</h1>
       <h4>{setDate.date}</h4>
-      <div className="video">
+      <div className="videos">
         <ReactPlayer
-          url="https://www.ptvsportstv.com.pk/live/#brid_cp_Brid_66042447
-          "
+          url="https://youtu.be/bMy37-P3cCc"
           playing={false}
           controls
           volume={1}
+          width="100%"
+          height="100%"
         />
       </div>
     </div>

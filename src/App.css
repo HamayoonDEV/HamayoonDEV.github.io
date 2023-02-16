@@ -1,9 +1,38 @@
 *{
     background-color: black;
+    margin: 0;
 }
 .App{
     width: 100%;
     height: 100%;
+    display: flex;
+    
+}
+@media screen and (max-width:850px) {
+    .App{
+        display: block;
+        align-items: center;
+    }
+    .appfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #282c34;
+    }
+    .chat{
+        margin-left: -14rem;
+
+    }
+    
+}
+.chat{
+    margin-top: 5rem;
+    display: flex;
 }
 .appfooter{
     display: flex;
@@ -14,5 +43,18 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #282c34;
 
+}
+.chat{
+    margin-bottom: 20rem;
+    margin-left: 20rem;
+    background-color: #282c34;
+
+    
+}
+@media screen and (max-width:850) {
+    .appfooter{
+        bottom: 30%;
+    }
 }
